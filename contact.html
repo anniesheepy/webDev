@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> AKW DESIGN - Annie Knows the Way to Design </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="portfolio, design, ui, ux, developer, contact Annie">
+    <meta name="description" content="Annie knows the way to design - contact Annie">
+    <meta name = "author" content="Annie Ko Wei Hsu">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-inner">
+            <a href="index.html"><img src="img/akw-logo.png" id="logo" alt="logo"></a>
+            <nav>
+                <a href="#" id="icon"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="branding.html">Branding</a></li>
+                    <li><a href="illustration.html">Illustration</a></li>
+                    <li><a href="photoediting.html">Photo Editing</a></li>
+                    <li class="dropdown"><a href="uiux.html">UI UX</a>
+                        <div class="dropdown-content">
+                            <a href="uiux.html">Website</a>
+                            <a href="uiux.html#mobile">Mobile App</a>
+                            <a href="uiux.html#ux">UX Design</a>
+                        </div></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+    
+<section class="banner">
+    <div class="banner-inner">
+        <img src="img/contact.png" alt="contact">
+    </div>
+</section>
+<form action="mailto:anniesheepy@gmail.com" method="post" enctype="text/plain">
+	    <h1>Send e-mail to anniesheepy@gmail.com by complete the form below :</h1>	    
+    
+        <div class="contact">
+            <div class="form-group">
+                <p>Name <span>*</span></p>
+                <span class="icon-case" id="nameicon"><i class="fa fa-user"></i></span>
+				<input type="text" name="name" id="name" required>
+            </div>
+			<div class="form-group">
+			     <p>Email <span>*</span></p>	
+			     <span class="icon-case" id="emailicon"><i class="fa fa-envelope-o"></i></span>
+                <input type="email" name="email" id="email" data-rule="email" required>
+			</div>	
+            <div class="form-group">
+			     <p>Phone number <span>*</span></p>	
+			     <span class="icon-case"><i class="fa fa-phone"></i></span>
+				<input type="text" name="phone" id="phone" data-rule="maxlen:10" placeholder="+1234567890">
+			</div>
+			<div class="form-group" id="msggroup">
+			     <p>Message <span>*</span></p>
+			     <span class="icon-case" id="msgicon"><i class="fa fa-comments-o"></i></span>
+                <textarea name="message" rows="14" data-rule="required"></textarea>
+			</div>	
+	   </div>
+
+    <div id="button">
+        <button type="submit" class="button-contact">Send</button>
+	</div>
+</form>	
+    <footer>
+        <span>&copy; 2017 Annie KW Hsu</span>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/anniekwhsu" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/104946804621456090068/104946804621456090068" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCrnPCim3KKGeR_9DGS8sSFg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/anniekwhsu/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/anniekwhsu/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

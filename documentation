@@ -1,0 +1,30 @@
+Document outlining where the features are to be found
+
+1. 4 or more sections, with one of the sections having at least one sub page.
+
+Please see index.html:24~36, where the navigation contains 6 pages and within the page of "UI UX", 3 subapges
+
+2. A simple form (with at least one HTML5 features)
+
+Please see contact.html:45~74, most of the inputs are "required", a html5 feature
+"input type="email"", is another html5 feature
+
+3. Search engine optimized and semantic code
+
+Through out the pages,  I have put meta tag of keywords, description, and author in the head and also feature every img tag with an "alt"
+
+4. Files upload to a production server with a working link provided
+
+Please link to http://www.anniekwhsu.com/index.html
+I bought my domain at https://www.nearlyfreespeech.net/
+But not yet know how to enable HTTPS(SSL) for the website
+
+5. A simple javascript or jquery enhancement
+
+I use the fotoroma plug in to make the slide show in home, branding, illustration, and photo editing page.
+http://fotorama.io/
+
+index.html: 41~52
+branding.html: 41~54
+illustration.html: 46~55
+photoediting.html: 45~53
